@@ -15,23 +15,30 @@ Objeto : Proteção do código-fonte e direitos autorais do software 2N49R1M3
 
 # P = +- ∆ A Fórmula que poucos enxergam.
 
-Relação Formal entre Δ e a Fatoração de N
-Um semiprimo N é definido como o produto de dois números primos p e q, ou seja, N=p×q. A diferença interna Δ é definida como o valor absoluto da diferença entre esses fatores, Δ=|q−p|. Assumindo, sem perda de generalidade, que q>p, temos Δ=q−p.
+# Relação Formal entre $\Delta$ e a Fatoração de $N$
 
-Podemos expressar q em termos de p e Δ:
-q=p+Δ
+Um semiprimo $N$ é definido como o produto de dois números primos $p$ e $q$, ou seja, $N = p \times q$. A diferença interna $\Delta$ é definida como o valor absoluto da diferença entre esses fatores, $\Delta = |q - p|$. Assumindo, sem perda de generalidade, que $q > p$, temos:
 
-Substituindo esta expressão de q na definição de N:
-N=p×(p+Δ)
-N=p2+pΔ
+$$\Delta = q - p$$
 
-Rearranjando os termos, obtemos uma equação quadrática na variável p:
-p2+pΔ−N=0
+Podemos expressar $q$ em termos de $p$ e $\Delta$:
 
-Esta equação quadrática pode ser resolvida para p usando a fórmula quadrática p=−b±b2−4ac√2a, onde a=1, b=Δ, e c=−N:
-p=−Δ±Δ2−4(1)(−N)−−−−−−−−−−−−√2(1)
-p=−Δ±Δ2+4N−−−−−−−√2
+$$q = p + \Delta$$
 
-Para que p seja um inteiro e um fator primo de N, a expressão dentro da raiz quadrada (Δ2+4N) deve ser um quadrado perfeito. Além disso, o valor de p resultante deve ser positivo. Se essas condições forem satisfeitas, um dos valores resultantes da fórmula quadrática será p. Uma vez que p é conhecido, q pode ser facilmente encontrado usando q=p+Δ.
+Substituindo esta expressão de $q$ na definição de $N$:
 
-E a conferência final fica em N/p=q
+$$N = p \times (p + \Delta)$$
+
+$$N = p^2 + p\Delta$$
+
+Rearranjando os termos, obtemos uma equação quadrática na variável $p$:
+
+$$p^2 + p\Delta - N = 0$$
+
+Esta equação quadrática pode ser resolvida para $p$ usando a fórmula quadrática, onde $a = 1$, $b = \Delta$, e $c = -N$:
+
+$$p = \frac{-\Delta \pm \sqrt{\Delta^2 - 4(1)(-N)}}{2(1)}$$
+
+$$p = \frac{-\Delta \pm \sqrt{\Delta^2 + 4N}}{2}$$
+
+Para que $p$ seja um inteiro e um fator primo de $N$, a expressão dentro da raiz quadrada $(\Delta^2 + 4N)$ deve ser um quadrado perfeito. Além disso, o valor de $p$ resultante deve ser positivo. Se essas condições forem satisfeitas, um dos valores resultantes da fórmula quadrática será $p$. Uma vez que $p$ é conhecido, $q$ pode ser facilmente encontrado usando $q = p + \Delta$.
